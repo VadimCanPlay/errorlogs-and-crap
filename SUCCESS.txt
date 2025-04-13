@@ -1,0 +1,233 @@
+INFO         | Android emulator version 35.4.9.0 (build_id 13025442) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath E:\AndroidSDK\system-images\android-33\google_apis\x86_64\
+INFO         | Increasing RAM size to 2048MB
+INFO         | IPv4 server found: 192.168.0.1
+INFO         | Ignore IPv6 address: 30dd:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 30dd:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 30dd:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 20e3:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 20e3:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 20e3:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 38e9:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 38e9:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: 38e9:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: a8f6:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: a8f6:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: a8f6:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: c8fc:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: c8fc:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: c8fc:67a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: e002:68a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: e002:68a1:be01:0:30dd:67a1:be01:0
+INFO         | Ignore IPv6 address: e002:68a1:be01:0:30dd:67a1:be01:0
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `test33` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `test33` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `test33` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `test33` are met
+WARNING      | Failed to process .ini file C:\Users\Few0_\.android\avd\..\avd\test33.avd\quickbootChoice.ini for reading.
+INFO         | Critical: Failed to load opengl32sw (The specified module could not be found.) (:0, )
+INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_btn_xr_environment_living_room_day_clicked() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_btn_xr_environment_living_room_night_clicked() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_posture_requested(int) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_posture_selection_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_resizable_requested(PresetEmulatorSizeType) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_resizable_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_xr_environment_mode_changed(int) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_xr_environment_mode_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_xr_input_mode_changed(int) (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_xr_input_mode_dialog() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_sleep_timer_done() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_unfold_timer_done() (:0, )
+INFO         | Storing crashdata in: C:\Users\Few0_\AppData\Local\Temp\\AndroidEmulator\emu-crash-35.4.9.db, detection is enabled for process: 9984
+INFO         | Guest Driver: Auto (ext controls)
+library_mode host gpu mode host
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'GeForce GTX 1050 Ti', type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU, apiVersion: 1.1.119, driverVersion: 442.23
+
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'Intel(R) UHD Graphics 630', type: VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU, apiVersion: 1.3.215, driverVersion: 0.404.2111
+
+INFO         | GPU device local memory = 8113MB
+WARNING      | Your GPU 'Intel(R) UHD Graphics 630' has driver version 1.3.215, and cannot support Vulkan properly. Please try updating your GPU Drivers.
+INFO         | Initializing hardware OpenGLES emulation support
+I0413 21:59:20.790381    8800 opengles.cpp:285] android_startOpenglesRenderer: gpu info
+I0413 21:59:20.790529    8800 opengles.cpp:286] GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce GTX 1050 Ti
+  Device ID: 1c8c
+
+INFO         | HealthMonitor disabled.
+INFO         | SharedLibrary::open for [opengl32.dll]: not found in map, open for the first time
+
+INFO         | SharedLibrary::open for [opengl32.dll] (win32): call LoadLibraryA
+
+INFO         | SharedLibrary::open succeeded for [opengl32.dll]. File name: [C:\WINDOWS\SYSTEM32\opengl32.DLL]
+
+INFO         | SharedLibrary::open for [libshadertranslator.dll]: not found in map, open for the first time
+
+INFO         | SharedLibrary::open for [libshadertranslator.dll] (win32): call LoadLibraryA
+
+INFO         | SharedLibrary::open succeeded for [libshadertranslator.dll]. File name: [E:\AndroidSDK\emulator\lib64\libshadertranslator.dll]
+
+INFO         | Graphics Adapter Vendor Google (NVIDIA Corporation)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (GeForce GTX 1050 Ti/PCIe/SSE2)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 442.23)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_multiview_texture_multisample GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer
+INFO         | Graphics Device Extensions N/A
+INFO         | Sending adb public key [QAAAAIVzETGzcl/p/XvDGGerjsjqMi/2IQxXwk0AfkkypsHpjin2VznUm3kLlop/OqUjxzX8dSywPKHLTOqKuF7Nu/B6tB2g3Qcp17k79IUxa0EO5b58dp7VxRGniGnPErR44ozaX+cRYMIfXMycjftdU0Ix0WHNR+c5GDBC3+EEc9cGlvjB35KgYuEBLIoHS80w+pEo1dwB0bk+9ArovPwyEkg8jAjFUSUy4CYvHxL1ydGIwzaB0QMTrphqaMDWMA2nzxNPawZ2i8uscaS/b6DMOW5qzhx5FXZtEEKXR1mbO2cqCmahzEMDj1bSNZfSJibBDwAGnYTtOLVbFN1EU4SFcHp6ll7CYB42WR1yOvM0kR5eKn14uPTSIPCDEJz/z4AvU+NPiJtY+TqS98qHTbCTHTRc1CHQp4k7MSPgjfEBlAZPCYVVgekYwa68mSiXhFXgdjnLyu/HZ6eZvLUbSeWKCYlqi7iF9LiUDHSwpCmGYIUjmWByuefRwvlxHS627mPGRTMKad8nzLLcsnt5b3orCE9VYSHRz8maDJ1ROkYvWrsuZ1/UNRiiPb0AX7Ci/luVuD/37ZKTxP7zrMtDaNh0zLNOxssDrTgFr6w2/tKFCx5/Sf1KTv/8VNNtpdE2JadrWPS9441bHecMgxaHaCwZGMLsbnYHSDdLKdSzTvUrZ7I8iWZngwEAAQA= @unknown]
+I0413 21:59:21.080944    8800 userspace-boot-properties.cpp:713] Userspace boot properties:
+I0413 21:59:21.081024    8800 userspace-boot-properties.cpp:717]   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+I0413 21:59:21.081234    8800 userspace-boot-properties.cpp:717]   androidboot.dalvik.vm.heapsize=512m
+I0413 21:59:21.081383    8800 userspace-boot-properties.cpp:717]   androidboot.debug.hwui.renderer=skiagl
+I0413 21:59:21.081523    8800 userspace-boot-properties.cpp:717]   androidboot.hardware=ranchu
+I0413 21:59:21.081637    8800 userspace-boot-properties.cpp:717]   androidboot.hardware.gltransport=pipe
+I0413 21:59:21.081700    8800 userspace-boot-properties.cpp:717]   androidboot.logcat=*:V
+I0413 21:59:21.081848    8800 userspace-boot-properties.cpp:717]   androidboot.opengles.version=196609
+I0413 21:59:21.081970    8800 userspace-boot-properties.cpp:717]   androidboot.qemu=1
+I0413 21:59:21.082072    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.adb.pubkey=QAAAAIVzETGzcl/p/XvDGGerjsjqMi/2IQxXwk0AfkkypsHpjin2VznUm3kLlop/OqUjxzX8dSywPKHLTOqKuF7Nu/B6tB2g3Qcp17k79IUxa0EO5b58dp7VxRGniGnPErR44ozaX+cRYMIfXMycjftdU0Ix0WHNR+c5GDBC3+EEc9cGlvjB35KgYuEBLIoHS80w+pEo1dwB0bk+9ArovPwyEkg8jAjFUSUy4CYvHxL1ydGIwzaB0QMTrphqaMDWMA2nzxNPawZ2i8uscaS/b6DMOW5qzhx5FXZtEEKXR1mbO2cqCmahzEMDj1bSNZfSJibBDwAGnYTtOLVbFN1EU4SFcHp6ll7CYB42WR1yOvM0kR5eKn14uPTSIPCDEJz/z4AvU+NPiJtY+TqS98qHTbCTHTRc1CHQp4k7MSPgjfEBlAZPCYVVgekYwa68mSiXhFXgdjnLyu/HZ6eZvLUbSeWKCYlqi7iF9LiUDHSwpCmGYIUjmWByuefRwvlxHS627mPGRTMKad8nzLLcsnt5b3orCE9VYSHRz8maDJ1ROkYvWrsuZ1/UNRiiPb0AX7Ci/luVuD/37ZKTxP7zrMtDaNh0zLNOxssDrTgFr6w2/tKFCx5/Sf1KTv/8VNNtpdE2JadrWPS9441bHecMgxaHaCwZGMLsbnYHSDdLKdSzTvUrZ7I8iWZngwEAAQA= @unknown
+I0413 21:59:21.082181    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.avd_name=test33
+I0413 21:59:21.082269    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.camera_hq_edge_processing=0
+I0413 21:59:21.082322    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.camera_protocol_ver=1
+I0413 21:59:21.082416    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.cpuvulkan.version=4202496
+I0413 21:59:21.082503    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.gltransport.drawFlushInterval=800
+I0413 21:59:21.082592    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.gltransport.name=pipe
+I0413 21:59:21.082676    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.hwcodec.avcdec=2
+I0413 21:59:21.082765    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.hwcodec.hevcdec=2
+I0413 21:59:21.082849    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.hwcodec.vpxdec=2
+I0413 21:59:21.082953    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+I0413 21:59:21.083083    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.virtiowifi=1
+I0413 21:59:21.083180    8800 userspace-boot-properties.cpp:717]   androidboot.qemu.vsync=60
+I0413 21:59:21.083262    8800 userspace-boot-properties.cpp:717]   androidboot.serialno=EMULATOR35X4X9X0
+I0413 21:59:21.083332    8800 userspace-boot-properties.cpp:717]   androidboot.vbmeta.digest=cc2acf6c582b63336b71fe51ed136e1a7a577e9e868ae7ba916ef6b3965324e5
+I0413 21:59:21.083408    8800 userspace-boot-properties.cpp:717]   androidboot.vbmeta.hash_alg=sha256
+I0413 21:59:21.083448    8800 userspace-boot-properties.cpp:717]   androidboot.vbmeta.size=6592
+I0413 21:59:21.083486    8800 userspace-boot-properties.cpp:717]   androidboot.veritymode=enforcing
+WHPX on Windows 10.0.22631 detected.
+Windows Hypervisor Platform accelerator is operational
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 0]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 2]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 3]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 4]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 5]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 6]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 7]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 8]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 9]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 13]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 15]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 16]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 23]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 24]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 0]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 2]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 3]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 4]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 5]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 6]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 7]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 8]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 9]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 13]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 15]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 16]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 23]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 24]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 0]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 2]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 3]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 4]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 5]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 6]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 7]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 8]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 9]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 13]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 15]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 16]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 23]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 24]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 0]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 2]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 3]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 4]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 5]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 6]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 7]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 8]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 9]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 13]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 15]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 16]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 23]
+host doesn't support requested feature: CPUID.80000001H:EDX [bit 24]
+netsimd I 04-13 18:59:21.960 daemon\src\rust_main.rs:98 - netsim artifacts path: "C:\\Users\\Few0_\\AppData\\Local\\Temp\\netsimd"
+netsimd I 04-13 18:59:21.962 daemon\src\rust_main.rs:101 - NetsimdArgs {
+    fd_startup_str: None,
+    no_cli_ui: true,
+    no_web_ui: true,
+    pcap: false,
+    disable_address_reuse: false,
+    hci_port: None,
+    connector_instance: None,
+    instance: None,
+    logtostderr: false,
+    dev: false,
+    forward_host_mdns: false,
+    vsock: None,
+    config: None,
+    host_dns: Some(
+        "192.168.0.1",
+    ),
+    http_proxy: None,
+    wifi_tap: None,
+    test_beacons: false,
+    no_test_beacons: false,
+    no_shutdown: false,
+    verbose: false,
+    version: false,
+}
+INFO         | Monitoring duration of emulator setup.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: E:\AndroidSDK\emulator\lib\emulator_access.json
+WARNING      | *** Basic token auth should only be used by android-studio ***
+INFO         | The active JSON Web Key Sets can be found here: C:\Users\Few0_\AppData\Local\Temp\avd\running\9984\jwks\ca264423-1d4d-4f07-a381-99f631d1965a\active.jwk
+INFO         | Scanning C:\Users\Few0_\AppData\Local\Temp\avd\running\9984\jwks\ca264423-1d4d-4f07-a381-99f631d1965a for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO         | Advertising in: C:\Users\Few0_\AppData\Local\Temp\avd\running\pid_9984.ini
+INFO         | Setting display: 0 configuration to: 1080x1920, dpi: 420x420
+INFO         | setDisplayActiveConfig 0
+ERROR        | Unable to connect to adb daemon on port: 5037
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `test33` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `test33` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `test33` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `test33` are met
+ERROR        | Unable to connect to adb daemon on port: 5037
+INFO         | Activated packet streamer for bluetooth emulation
+##############################################################################
+##                        WARNING - ACTION REQUIRED                         ##
+##  Consider using the '-metrics-collection' flag to help improve the       ##
+##  emulator by sending anonymized usage data. Or use the '-no-metrics'     ##
+##  flag to bypass this warning and turn off the metrics collection.        ##
+##  In a future release this warning will turn into a one-time blocking     ##
+##  prompt to ask for explicit user input regarding metrics collection.     ##
+##                                                                          ##
+##  Please see '-help-metrics-collection' for more details. You can use     ##
+##  '-metrics-to-file' or '-metrics-to-console' flags to see what type of   ##
+##  data is being collected by emulator as part of usage statistics.        ##
+##############################################################################
+INFO         | Loading snapshot 'default_boot'...
+WARNING      | Failed to process .ini file C:\Users\Few0_\.android\emu-update-last-check.ini for reading.
+WARNING      | Device 'cache' does not have the requested snapshot 'default_boot'
+
+WARNING      | Failed to load snapshot 'default_boot'
+WARNING      | Failed to process .ini file C:\Users\Few0_\.android\emu-update-last-check.ini for reading.
